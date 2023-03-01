@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <title>Proyecto Final CV</title>
   <meta charset="utf-8">
@@ -9,73 +10,84 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Mi CV</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#perfil">Perfil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#experiencia">Experiencia</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#formacion">Formación</a>
-      </li>
-    </ul>
-  </div>
-</nav>
- 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-12 mb-5">
-      <div class="card">
-        <div class="card-body text-center">
-          <img src="https://randomuser.me/api/portraits/men/35.jpg" class="rounded-circle mb-3" alt="Foto de perfil">
-          <h4 class="card-title">Scott Fowler</h4>
-          <p class="card-text">Desarrollador Web</p>
-          <p class="card-text">6433 Valley View Ln<br> (821) 399-1298<br> scott.fowler@example.com
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Mi CV</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#perfil">Perfil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formacion">Formación</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 mb-5">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/35.jpg" class="rounded-circle mb-3" alt="Foto de perfil">
+            <h4 class="card-title">Scott Fowler</h4>
+            <p class="card-text">Desarrollador Web</p>
+            <p class="card-text">6433 Valley View Ln<br> (821) 399-1298<br> scott.fowler@example.com
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="perfil">
+          <h2>Perfil</h2>
+          <p class="text-justify">Desarrollador web con 3 años de experiencia creando código limpio y eficiente. Experto
+            en HTML, CSS y JavaScript. <br> Gran atención a los detalles y capacidad para trabajar en colaboración tanto
+            con miembros del equipo como con clientes. <br> Mis responsabilidades incluyen el diseño, desarrollo y
+            mantenimiento de sitios web, resolución de problemas y depuración de código; siempre al día con las
+            tendencias y avances de la industria. <br> Excelente desempeño a la hora de colaborar con diseñadores,
+            gerentes y otros desarrolladores, con el objetivo de garantizar que los proyectos se completen a tiempo y
+            con los más altos estándares de calidad.</p>
+        </div>
+        <hr>
+        <div id="experiencia">
+          <h2>Experiencia</h2>
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Desarrollador Web</h5>
+              <h6 class="card-subtitle mb-2 ">Academia Ticmas</h6>
+              <p class="card-text">Noviembre 2019 - Presente</p>
+              <ul>
+                <li>Diseño y desarrollo de página web.</li>
+                <li>Mantenimiento y actualización de HTML.</li>
+                <li>Trabajo en conjunto de troubleshooting y solución de problemas.</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div id="formacion">
+            <h2>Formación</h2>
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 "> UTN | Facultad Regional Rosario</h6>
+                <p class="card-text">Marzo 2017- 2019</p>
+                <ul>
+                  <li>Desarrollo de Aplicaciones Web.</li>
+                  <li>Diseño de Páginas Web. </li>
+                  <li>Programacion Front End: HTLM, CSS, Javascript.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-md-12">
-      <div id="perfil">
-        <h2>Perfil</h2>
-        <p class="text-justify">Desarrollador web con 3 años de experiencia creando código limpio y eficiente. Experto en HTML, CSS y JavaScript. <br> Gran atención a los detalles y capacidad para trabajar en colaboración tanto con miembros del equipo como con clientes. <br> Mis responsabilidades incluyen el diseño, desarrollo y mantenimiento de sitios web, resolución de problemas y depuración de código; siempre al día con las tendencias y avances de la industria. <br> Excelente desempeño a la hora de colaborar con diseñadores, gerentes y otros desarrolladores, con el objetivo de garantizar que los proyectos se completen a tiempo y con los más altos estándares de calidad.</p>
-      </div>
-      <hr>
-      <div id="experiencia">
-        <h2>Experiencia</h2>
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Desarrollador Web</h5>
-            <h6 class="card-subtitle mb-2 ">Academia Ticmas</h6>
-            <p class="card-text">Noviembre 2019 - Presente</p>
-            <ul>
-              <li>Diseño y desarrollo de página web.</li>
-              <li>Mantenimiento y actualización de HTML.</li>
-              <li>Trabajo en conjunto de troubleshooting y solución de problemas.</li>
-            </ul>
-          </div>
-        </div>
-        <hr>
-        <div id="formacion">
-          <h2>Formación</h2>
-          <div class="card mb-3">
-            <div class="card-body">
-               <h6 class="card-subtitle mb-2 "> UTN | Facultad Regional Rosario</h6>
-              <p class="card-text">Marzo 2017- 2019</p>
-              <ul>
-                <li>Desarrollo de Aplicaciones Web.</li>
-                <li>Diseño de Páginas Web. </li>
-                <li>Programacion Front End: HTLM, CSS, Javascript.</li>
-              </ul>
-            </div>
-
-        
-          
+  </div>
+</body>
